@@ -193,13 +193,13 @@ Now, let's view some PhenoCam images and greenness data. Choose a site to explor
 ```{r}
 # Choose site to explore 
 # Enter name exactly as it appears in the table/on the website
-site_name = "lacclair"
+site_name = "sevmvecreo12redinc"
 
 # Indicate vegetation type (listed on site page)
-veg = "DB"
+veg = "SH"
 
 # Choose data year (for downloading images later)
-year = 2022
+year = 2024
 
 # Indicate ROI ID
 ROI = 1000
@@ -243,7 +243,7 @@ plot(GCC_timeseries$date, GCC_timeseries$gcc_90,
      # Add axis labels
      xlab = "Date", ylab = "GCC", 
      # Add title
-     main = paste0(site_name, ": ", "Canopy Greenness Timeseries"))
+     main = paste0(site_name, ": ", "Greenness Timeseries"))
 
 ```
 
